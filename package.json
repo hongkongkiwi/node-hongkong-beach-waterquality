@@ -1,0 +1,38 @@
+{
+  "name": "hongkong-beach-waterquality",
+  "version": "1.0.0",
+  "description": "Node.js module to get water pollution for Hong Kong Beaches.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hongkongkiwi/node-hongkong-beach-waterquality"
+  },
+  "keywords": [
+    "scraper",
+    "beach",
+    "hong",
+    "kong",
+    "hk",
+    "water",
+    "pollution",
+    "green",
+    "opendata",
+    "environment"
+  ],
+  "author": "Andy Savage <andy@savage.hk>",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.4.0",
+    "cheerio": "^0.20.0",
+    "random-useragent": "^0.3.0",
+    "request-promise": "^3.0.0",
+    "soap": "^0.16.0",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0"
+  }
+}
